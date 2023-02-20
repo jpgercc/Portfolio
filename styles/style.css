@@ -1,19 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-/*
-@media screen and (max-width: 1300px){
-    .imagem{
-        display: none;
-    }
-}
-*/
+
 
 :root{
     --cor-primaria: #06113C;
     --cor-secundaria: #FF8C32;
     --cor-terciaria: #DDDDDD;
-    --cor-hover: #272727;
+    --cor-hover: #FD8A8A;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -121,19 +115,16 @@ body{
 }
 
 .rodape{
-    width: 100%;
     color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-.escondido{
-    text-decoration: none;
-}
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1360px){
     .cabecalho{
         padding: 10%;
     }
