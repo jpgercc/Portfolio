@@ -92,12 +92,12 @@ body{
 
 /* editar depois o media */
 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1345px){
     .cabecalho{
         padding: 10%;
     }
     .cabecalho__menu{
-        gap: 3rem;
+        gap: 1rem;
         justify-content: center;
     }
     .corpo{
