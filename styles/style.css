@@ -166,7 +166,7 @@ body{
 
     .apresentacao{
         flex-direction: column;
-        padding: 5%;
+        padding: 5px;
     
     }
     .apresentacao__conteudo{
