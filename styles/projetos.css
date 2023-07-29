@@ -39,14 +39,20 @@ body{
     color: var(--cor-secundaria);
 }
 
-.eng__img{
-    padding-left: 95%;
+.cabecalho__menu__link:active{
+    font-size: 1.4rem;
+    color: var(--cor-hover);
 }
 
 .dev__aviso{
     color: var(--cor-hover);
     font-family: var(--fonte-primaria);
 }
+
+.mouse_img{
+    margin-left: 80%;
+}
+
 .art{
     margin-top: 2%;
     margin-left: 33%;
@@ -127,10 +133,6 @@ body{
 
     .cabecalho__menu__link{
         font-size: 1.3rem;
-    }
-
-    .eng__img{
-        padding: 85%;
     }
 
     .apresentacao{

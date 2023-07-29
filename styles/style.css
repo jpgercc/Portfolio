@@ -41,9 +41,11 @@ body{
     color: var(--cor-06113C);
 }
 
-.eng__img{
-    padding-left: 95%;
+.cabecalho__menu__link:active{
+    font-size: 1.4rem;
+    color: var(--cor-hover);
 }
+
 .apresentacao{
     padding: 2% 15%;
     display: flex;
@@ -161,10 +163,6 @@ body{
 
     .cabecalho__menu__link{
         font-size: 1.3rem;
-    }
-
-    .eng__img{
-        padding: 85%;
     }
 
     .apresentacao{

@@ -41,8 +41,9 @@ body{
     color: var(--cor-06113C);
 }
 
-.eng__img{
-    padding-left: 95%;
+.cabecalho__menu__link:active{
+    font-size: 1.4rem;
+    color: var(--cor-hover);
 }
 
 .titulo_cv{
@@ -92,10 +93,6 @@ body{
 
     .cabecalho__menu__link{
         font-size: 1.3rem;
-    }
-
-    .eng__img{
-        padding: 85%;
     }
 
     .titulo_cv{
