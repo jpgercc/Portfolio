@@ -47,7 +47,7 @@ body{
 }
 
 .apresentacao{
-    padding: 2% 15%;
+    padding: 6% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +57,7 @@ body{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2%;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -132,6 +132,10 @@ body{
     border-radius: 8%;
 }
 
+.imagem_eu{
+    border-radius: 8%;
+}
+
 .bug{
     font-size: 1.3rem;
     text-align: center;
@@ -157,7 +161,7 @@ body{
         padding: 2%;
     }
     .cabecalho__menu{
-        gap: 2rem;
+        gap: 5px;
         justify-content: center;
     }
 
@@ -189,15 +193,15 @@ body{
     .imagem{
         width: 35%;
       }
+      .imagem_eu{
+        width: 70%;
+        
+      }
 
 }
 
 @media screen and (max-width: 360px){
     .apresentacao__links__link{
         width: 80%;
-    }
-    .cabecalho__menu{
-        gap: 5px;
-        justify-content: center;
     }
 }

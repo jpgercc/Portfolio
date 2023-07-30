@@ -122,6 +122,12 @@ body{
 
 }
 
+@media screen and (max-width: 400px){
+    .titulo_cv{
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 360px){
     .apresentacao__links__link{
         width: 80%;
