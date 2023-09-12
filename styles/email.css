@@ -39,7 +39,7 @@ body{
 }
 
 .formulario{
-    text-align: left;
+    text-align: center;
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
@@ -56,6 +56,7 @@ body{
     max-width: 32rem;
     font-size: 1.125rem;
     font-family: var(--fonte-secundaria);
+    margin: 0 auto;
 }
 
 .form label,
@@ -113,6 +114,7 @@ body{
 .form button:focus {
     outline: none;
     background: #0b1d668c;
+    color: #FF8C32;
 }
 .pintura{
     width: 10%;
@@ -122,11 +124,13 @@ body{
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
     padding: 24px;
-    text-align: left;
+    text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
 
 @media screen and (max-width: 1345px){
     .cabecalho{
