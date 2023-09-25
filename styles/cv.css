@@ -84,10 +84,10 @@ body{
 
 @media screen and (max-width: 1330px){
     .cabecalho_cv{
-        padding: 10%;
+        padding: 2%;
     }
     .cabecalho__menu_cv{
-        gap: 1rem;
+        gap: 4vh;
         justify-content: center;
     }
 
