@@ -160,8 +160,9 @@ body{
     .cabecalho{
         padding: 2%;
     }
+    
     .cabecalho__menu{
-        gap: 5px;
+        gap: 4vh;
         justify-content: center;
     }
 
