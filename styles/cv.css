@@ -124,11 +124,21 @@ body{
 
 @media screen and (max-width: 400px){
     .titulo_cv{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .paragrafo_cv{
+        font-size: 1.1rem;
+    }
+    .titulo_baixar{
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 360px){
+    .cabecalho__menu_cv{
+        gap: 5px;
+        justify-content: center;
+    }
     .apresentacao__links__link{
         width: 80%;
     }
