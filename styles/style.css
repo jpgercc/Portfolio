@@ -82,6 +82,7 @@ body{
     font-size: 1.5rem;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
+    text-decoration: none;
 }
 
 .alura{

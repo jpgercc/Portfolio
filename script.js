@@ -1,13 +1,17 @@
 function scrollDown() {
-  // A quantidade de viewport height (vh) que você quer que a página role para baixo
-  const scrollAmountInVh = 90; // Neste exemplo, estamos rolando 50vh para baixo
-
-  // Calcula a nova posição da rolagem somando a quantidade desejada
-  const targetPositionInPx = (scrollAmountInVh * window.innerHeight) / 100;
-
-  // Rola a página para a nova posição com animação suave (smooth scrolling)
-  window.scrollTo({
-    top: targetPositionInPx,
-    behavior: "smooth"
-  });
-}
+    // Altura desejada a rolar em porcentagem da altura total da página
+    const scrollAmountInPercent = 40; // Agora estamos rolando 70% para baixo
+    
+    // Obtém a altura total da página
+    const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+    
+    // Calcula a nova posição da rolagem em pixels
+    const targetPositionInPx = (scrollAmountInPercent / 100) * pageHeight;
+    
+    // Rola a página para a nova posição com animação suave (smooth scrolling)
+    window.scrollTo({
+      top: targetPositionInPx,
+      behavior: "smooth"
+    });
+  }
+  
