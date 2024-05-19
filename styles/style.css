@@ -134,6 +134,9 @@ body{
 }
 
 .imagem_eu{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
     border-radius: 8%;
 }
 
